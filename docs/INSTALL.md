@@ -68,6 +68,7 @@ Um es kurz zusammenzufassen: Einfach `tools/push_firmware` verwenden und den Res
  * Alternativ kann es auch mit `make push_firmware` aufgerufen werden, Parameter sind dann nicht möglich.
  * Ohne Parameter wird das zuletzt erzeugte Image genutzt.
  * Wenn man nicht weiss weshalb man einen Parameter angegeben halt sollte man diesen weglassen! Es müsste alles automatisch erkannt werden.
+ * Vorgängig muss im Webinterface der Fritzbox unter `Heimnetz > USB/Speicher` der Zugriff per FTP aktiviert sein.
 
 ### Anmerkungen
  * Die Namen hier wie zB NOR, NAND oder INHAUS sind meist keine offiziellen Bezeichnungen sondern Vereinbarungen oder Anlehnungen.
